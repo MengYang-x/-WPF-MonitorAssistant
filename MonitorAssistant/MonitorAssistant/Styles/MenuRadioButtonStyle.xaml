@@ -1,0 +1,69 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- 定义颜色资源 -->
+    <SolidColorBrush x:Key="UnselectedGrayColor" Color="#FFB0B0B0"/>
+    <SolidColorBrush x:Key="PrimaryBlueColor" Color="#FF0078D7"/>
+    <SolidColorBrush x:Key="SecondaryGrayColor" Color="#FFF5F5F5"/>
+
+    <Style x:Key="MenuRadioButtonStyle" TargetType="{x:Type RadioButton}">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Foreground" Value="{StaticResource UnselectedGrayColor}"/>
+        <!-- 默认使用浅灰色 -->
+        <Setter Property="FontWeight" Value="Normal"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RadioButton}">
+                    <Border x:Name="menuButton" 
+                            Background="{TemplateBinding Background}" 
+                            BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid>
+                            <!-- 左侧选中指示条 -->
+                            <Rectangle x:Name="Indicator" 
+                                      Width="4" 
+                                      Height="0"
+                                      HorizontalAlignment="Left"
+                                      VerticalAlignment="Center" 
+                                      RadiusX="2" 
+                                      RadiusY="2"
+                                      Fill="{StaticResource PrimaryBlueColor}"/>
+
+                            <!-- 文本内容 -->
+                            <TextBlock x:Name="txtName" 
+                                      Margin="16,0,0,0"
+                                      VerticalAlignment="Center"
+                                      Text="{TemplateBinding Content}" 
+                                      Foreground="{TemplateBinding Foreground}"
+                                      FontWeight="{TemplateBinding FontWeight}"
+                                      FontSize="{TemplateBinding FontSize}"/>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <!-- 鼠标悬停效果 -->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="txtName" Property="Foreground" Value="{StaticResource PrimaryBlueColor}"/>
+                        </Trigger>
+
+                        <!-- 选中状态 -->
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="Indicator" Property="Height" Value="20"/>
+                            <Setter TargetName="txtName" Property="Foreground" Value="{StaticResource PrimaryBlueColor}"/>
+                            <Setter TargetName="txtName" Property="FontWeight" Value="SemiBold"/>
+                            <Setter Property="Background" Value="{StaticResource SecondaryGrayColor}"/>
+                        </Trigger>
+
+                        <!-- 未选中状态（显式设置，确保覆盖其他状态） -->
+                        <Trigger Property="IsChecked" Value="False">
+                            <Setter TargetName="txtName" Property="Foreground" Value="{StaticResource UnselectedGrayColor}"/>
+                            <Setter TargetName="txtName" Property="FontWeight" Value="Normal"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>
