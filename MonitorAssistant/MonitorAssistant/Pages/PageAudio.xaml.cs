@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace MonitorAssistant.Pages
 {
     /// <summary>
-    /// Page2.xaml 的交互逻辑
+    /// PageAudio.xaml 的交互逻辑
     /// </summary>
-    public partial class Page2 : Page
+    public partial class PageAudio : Page
     {
-        public Page2()
+        public PageAudio()
         {
             InitializeComponent();
         }

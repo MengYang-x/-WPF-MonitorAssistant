@@ -8,6 +8,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/Styles/PageStyle.xaml"/>
                 <ResourceDictionary Source="/Styles/MenuRadioButtonStyle.xaml"/>
+                <ResourceDictionary Source="/Styles/GroupBoxStyle.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

@@ -70,15 +70,31 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Pages\Page1.xaml">
+    <Page Include="Pages\PageAbout.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Page2.xaml">
+    <Page Include="Pages\PageAudio.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Page3.xaml">
+    <Page Include="Pages\PageCalculate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PageEDID.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PagePattern.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PageSerialPort.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\GroupBoxStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -92,14 +108,23 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pages\Page1.xaml.cs">
-      <DependentUpon>Page1.xaml</DependentUpon>
+    <Compile Include="Pages\PageAbout.xaml.cs">
+      <DependentUpon>PageAbout.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Page2.xaml.cs">
-      <DependentUpon>Page2.xaml</DependentUpon>
+    <Compile Include="Pages\PageAudio.xaml.cs">
+      <DependentUpon>PageAudio.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Page3.xaml.cs">
-      <DependentUpon>Page3.xaml</DependentUpon>
+    <Compile Include="Pages\PageCalculate.xaml.cs">
+      <DependentUpon>PageCalculate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageEDID.xaml.cs">
+      <DependentUpon>PageEDID.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PagePattern.xaml.cs">
+      <DependentUpon>PagePattern.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSerialPort.xaml.cs">
+      <DependentUpon>PageSerialPort.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

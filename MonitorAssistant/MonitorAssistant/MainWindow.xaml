@@ -11,7 +11,7 @@
     <Grid ShowGridLines="False">
         <!--界面布局：分2列-->
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="130"/>
+            <ColumnDefinition Width="120"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <!--界面布局：导航按钮-->
@@ -20,13 +20,22 @@
                 <RadioButton Style="{StaticResource MenuRadioButtonStyle}" 
                              GroupName="NavMenu" 
                              IsChecked="True"
-                             Content="Page1" Click="RadioButtonPage1_Click"/>
+                             Content="Calculate" Click="RadioButton_Caluculate_Click"/>
                 <RadioButton Style="{StaticResource MenuRadioButtonStyle}" 
                              GroupName="NavMenu" 
-                             Content="Page2" Click="RadioButtonPage2_Click"/>
+                             Content="Pattern"/>
                 <RadioButton Style="{StaticResource MenuRadioButtonStyle}" 
                              GroupName="NavMenu" 
-                             Content="Page3" Click="RadioButtonPage3_Click"/>
+                             Content="Audio"/>
+                <RadioButton Style="{StaticResource MenuRadioButtonStyle}" 
+                             GroupName="NavMenu" 
+                             Content="EDID" />
+                <RadioButton Style="{StaticResource MenuRadioButtonStyle}" 
+                             GroupName="NavMenu" 
+                             Content="SerialPort" />
+                <RadioButton Style="{StaticResource MenuRadioButtonStyle}" 
+                             GroupName="NavMenu" 
+                             Content="About" Click="RadioButton_About_Click" />
             </StackPanel>
         </Border>
         <!--：界面布局：导航界面-->

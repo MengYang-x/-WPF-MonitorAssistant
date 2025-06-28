@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace MonitorAssistant.Pages
 {
     /// <summary>
-    /// Page3.xaml 的交互逻辑
+    /// PageEDID.xaml 的交互逻辑
     /// </summary>
-    public partial class Page3 : Page
+    public partial class PageEDID : Page
     {
-        public Page3()
+        public PageEDID()
         {
             InitializeComponent();
         }

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\012.github\[WPF]MonitorAssistant\[WPF]MonitorAssistant\MonitorAssistant\MonitorAssistant\App.xaml
-6-830025685
+102124051179
 
-8789244500
+111312672055
 13-38814620
-MainWindow.xaml;Pages\Page1.xaml;Pages\Page2.xaml;Pages\Page3.xaml;Styles\MenuRadioButtonStyle.xaml;Styles\PageStyle.xaml;
+MainWindow.xaml;Pages\PageAbout.xaml;Pages\PageAudio.xaml;Pages\PageCalculate.xaml;Pages\PageEDID.xaml;Pages\PagePattern.xaml;Pages\PageSerialPort.xaml;Styles\GroupBoxStyle.xaml;Styles\MenuRadioButtonStyle.xaml;Styles\PageStyle.xaml;
 
 False
 

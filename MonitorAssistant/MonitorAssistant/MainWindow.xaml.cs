@@ -28,22 +28,15 @@ namespace MonitorAssistant
 
         private void PageContent_Loaded(object sender, RoutedEventArgs e)
         {
-            PageContent.Navigate(new Page1());
+            PageContent.Navigate(new PageCalculate());
         }
-
-        private void RadioButtonPage1_Click(object sender, RoutedEventArgs e)
+        private void RadioButton_Caluculate_Click(object sender, RoutedEventArgs e)
         {
-            PageContent.Navigate(new Page1());
+            PageContent.Navigate(new PageCalculate());
         }
-
-        private void RadioButtonPage2_Click(object sender, RoutedEventArgs e)
+        private void RadioButton_About_Click(object sender, RoutedEventArgs e)
         {
-            PageContent.Navigate(new Page2());
-        }
-
-        private void RadioButtonPage3_Click(object sender, RoutedEventArgs e)
-        {
-            PageContent.Navigate(new Page3());
+            PageContent.Navigate(new PageAbout());
         }
     }
 }

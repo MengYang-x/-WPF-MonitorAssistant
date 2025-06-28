@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace MonitorAssistant.Pages
 {
     /// <summary>
-    /// Page1.xaml 的交互逻辑
+    /// PageSerialPort.xaml 的交互逻辑
     /// </summary>
-    public partial class Page1 : Page
+    public partial class PageSerialPort : Page
     {
-        public Page1()
+        public PageSerialPort()
         {
             InitializeComponent();
         }
