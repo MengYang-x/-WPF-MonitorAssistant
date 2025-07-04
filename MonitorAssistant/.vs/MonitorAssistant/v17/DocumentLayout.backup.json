@@ -1,61 +1,81 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\",
+  "WorkspaceRootPath": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\012.github\\[wpf]monitorassistant\\[wpf]monitorassistant\\monitorassistant\\monitorassistant\\pages\\pagecalculate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\pages\\pagecalculate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\02.github\\-wpf-monitorassistant\\monitorassistant\\monitorassistant\\pages\\pagecalculate.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\pages\\pagecalculate.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\012.github\\[wpf]monitorassistant\\[wpf]monitorassistant\\monitorassistant\\monitorassistant\\pages\\pagecalculate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\monitorassistant\\pages\\pagecalculate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\pages\\pagecalculate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\012.github\\[wpf]monitorassistant\\[wpf]monitorassistant\\monitorassistant\\monitorassistant\\pages\\pageserialport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\pages\\pageserialport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\02.github\\-wpf-monitorassistant\\monitorassistant\\monitorassistant\\styles\\comboboxstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\styles\\comboboxstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\012.github\\[wpf]monitorassistant\\[wpf]monitorassistant\\monitorassistant\\monitorassistant\\styles\\groupboxstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\styles\\groupboxstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\012.github\\[wpf]monitorassistant\\[wpf]monitorassistant\\monitorassistant\\monitorassistant\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\012.github\\[wpf]monitorassistant\\[wpf]monitorassistant\\monitorassistant\\monitorassistant\\styles\\menuradiobuttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\styles\\menuradiobuttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\012.github\\[wpf]monitorassistant\\[wpf]monitorassistant\\monitorassistant\\monitorassistant\\styles\\pagestyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\styles\\pagestyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\012.github\\[wpf]monitorassistant\\[wpf]monitorassistant\\monitorassistant\\monitorassistant\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\012.github\\[wpf]monitorassistant\\[wpf]monitorassistant\\monitorassistant\\monitorassistant\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\monitorassistant\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\012.github\\[wpf]monitorassistant\\[wpf]monitorassistant\\monitorassistant\\monitorassistant\\pages\\pageabout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\02.github\\-wpf-monitorassistant\\monitorassistant\\monitorassistant\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\monitorassistant\\styles\\groupboxstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\styles\\groupboxstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\monitorassistant\\styles\\pagestyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\styles\\pagestyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\02.github\\-wpf-monitorassistant\\monitorassistant\\monitorassistant\\pages\\pagecalculate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\pages\\pagecalculate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\monitorassistant\\pages\\pageabout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\pages\\pageabout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\monitorassistant\\pages\\pageabout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\pages\\pageabout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\012.github\\[wpf]monitorassistant\\[wpf]monitorassistant\\monitorassistant\\monitorassistant\\pages\\pageedid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|MonitorAssistant||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\monitorassistant\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\monitorassistant\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\monitorassistant\\pages\\pageserialport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\pages\\pageserialport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\monitorassistant\\styles\\menuradiobuttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\styles\\menuradiobuttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\monitorassistant\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\monitorassistant\\pages\\pageedid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\pages\\pageedid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\012.github\\[wpf]monitorassistant\\[wpf]monitorassistant\\monitorassistant\\monitorassistant\\pages\\pageaudio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\monitorassistant\\pages\\pageaudio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\pages\\pageaudio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|e:\\012.github\\[wpf]monitorassistant\\[wpf]monitorassistant\\monitorassistant\\monitorassistant\\pages\\pagepattern.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\monitorassistant\\pages\\pagepattern.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A7C827E1-48F0-4BB3-A0BE-5A9F122AA788}|MonitorAssistant\\MonitorAssistant.csproj|solutionrelative:monitorassistant\\pages\\pagepattern.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|MonitorAssistant||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,28 +85,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pages\\PageCalculate.xaml.cs",
-              "DocumentMoniker": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageCalculate.xaml.cs",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MonitorAssistant\\App.xaml.cs",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\App.xaml.cs",
+              "RelativeToolTip": "MonitorAssistant\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T15:54:55.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComboBoxStyle.xaml",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Styles\\ComboBoxStyle.xaml",
+              "RelativeDocumentMoniker": "MonitorAssistant\\Styles\\ComboBoxStyle.xaml",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Styles\\ComboBoxStyle.xaml",
+              "RelativeToolTip": "MonitorAssistant\\Styles\\ComboBoxStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-04T15:51:36.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PageCalculate.xaml.cs",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageCalculate.xaml.cs",
               "RelativeDocumentMoniker": "MonitorAssistant\\Pages\\PageCalculate.xaml.cs",
-              "ToolTip": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageCalculate.xaml.cs*",
-              "RelativeToolTip": "MonitorAssistant\\Pages\\PageCalculate.xaml.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAywCkAAAArAAAAAAAAAA==",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageCalculate.xaml.cs",
+              "RelativeToolTip": "MonitorAssistant\\Pages\\PageCalculate.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvyMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-28T08:28:37.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PageAbout.xaml.cs",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageAbout.xaml.cs",
+              "RelativeDocumentMoniker": "MonitorAssistant\\Pages\\PageAbout.xaml.cs",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageAbout.xaml.cs",
+              "RelativeToolTip": "MonitorAssistant\\Pages\\PageAbout.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T15:37:23.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\App.config",
+              "RelativeDocumentMoniker": "MonitorAssistant\\App.config",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\App.config",
+              "RelativeToolTip": "MonitorAssistant\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-04T15:26:35.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PageCalculate.xaml",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageCalculate.xaml",
+              "RelativeDocumentMoniker": "MonitorAssistant\\Pages\\PageCalculate.xaml",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageCalculate.xaml*",
+              "RelativeToolTip": "MonitorAssistant\\Pages\\PageCalculate.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-28T06:53:58.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "PageStyle.xaml",
-              "DocumentMoniker": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Styles\\PageStyle.xaml",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Styles\\PageStyle.xaml",
               "RelativeDocumentMoniker": "MonitorAssistant\\Styles\\PageStyle.xaml",
-              "ToolTip": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Styles\\PageStyle.xaml",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Styles\\PageStyle.xaml",
               "RelativeToolTip": "MonitorAssistant\\Styles\\PageStyle.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-28T07:08:07.118Z",
@@ -94,11 +179,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "MenuRadioButtonStyle.xaml",
-              "DocumentMoniker": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Styles\\MenuRadioButtonStyle.xaml",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Styles\\MenuRadioButtonStyle.xaml",
               "RelativeDocumentMoniker": "MonitorAssistant\\Styles\\MenuRadioButtonStyle.xaml",
-              "ToolTip": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Styles\\MenuRadioButtonStyle.xaml",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Styles\\MenuRadioButtonStyle.xaml",
               "RelativeToolTip": "MonitorAssistant\\Styles\\MenuRadioButtonStyle.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-28T07:08:02.4Z",
@@ -106,11 +191,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GroupBoxStyle.xaml",
-              "DocumentMoniker": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Styles\\GroupBoxStyle.xaml",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Styles\\GroupBoxStyle.xaml",
               "RelativeDocumentMoniker": "MonitorAssistant\\Styles\\GroupBoxStyle.xaml",
-              "ToolTip": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Styles\\GroupBoxStyle.xaml",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Styles\\GroupBoxStyle.xaml",
               "RelativeToolTip": "MonitorAssistant\\Styles\\GroupBoxStyle.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-28T07:07:41.292Z",
@@ -118,96 +203,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "PageSerialPort.xaml",
-              "DocumentMoniker": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageSerialPort.xaml",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageSerialPort.xaml",
               "RelativeDocumentMoniker": "MonitorAssistant\\Pages\\PageSerialPort.xaml",
-              "ToolTip": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageSerialPort.xaml",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageSerialPort.xaml",
               "RelativeToolTip": "MonitorAssistant\\Pages\\PageSerialPort.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-28T06:56:01.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T06:56:01.303Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "PageEDID.xaml",
-              "DocumentMoniker": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageEDID.xaml",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageEDID.xaml",
               "RelativeDocumentMoniker": "MonitorAssistant\\Pages\\PageEDID.xaml",
-              "ToolTip": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageEDID.xaml",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageEDID.xaml",
               "RelativeToolTip": "MonitorAssistant\\Pages\\PageEDID.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-28T06:55:04.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T06:55:04.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "PageAudio.xaml",
-              "DocumentMoniker": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageAudio.xaml",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageAudio.xaml",
               "RelativeDocumentMoniker": "MonitorAssistant\\Pages\\PageAudio.xaml",
-              "ToolTip": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageAudio.xaml",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageAudio.xaml",
               "RelativeToolTip": "MonitorAssistant\\Pages\\PageAudio.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-28T06:54:42.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T06:54:42.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "PagePattern.xaml",
-              "DocumentMoniker": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PagePattern.xaml",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PagePattern.xaml",
               "RelativeDocumentMoniker": "MonitorAssistant\\Pages\\PagePattern.xaml",
-              "ToolTip": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PagePattern.xaml",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PagePattern.xaml",
               "RelativeToolTip": "MonitorAssistant\\Pages\\PagePattern.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-28T06:54:24.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T06:54:24.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PageCalculate.xaml",
-              "DocumentMoniker": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageCalculate.xaml",
-              "RelativeDocumentMoniker": "MonitorAssistant\\Pages\\PageCalculate.xaml",
-              "ToolTip": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageCalculate.xaml",
-              "RelativeToolTip": "MonitorAssistant\\Pages\\PageCalculate.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-28T06:53:58.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MonitorAssistant\\MainWindow.xaml.cs",
-              "ToolTip": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\MainWindow.xaml.cs",
               "RelativeToolTip": "MonitorAssistant\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T06:47:06.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T06:47:06.427Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "PageAbout.xaml",
-              "DocumentMoniker": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageAbout.xaml",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageAbout.xaml",
               "RelativeDocumentMoniker": "MonitorAssistant\\Pages\\PageAbout.xaml",
-              "ToolTip": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageAbout.xaml",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageAbout.xaml",
               "RelativeToolTip": "MonitorAssistant\\Pages\\PageAbout.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-28T06:41:51.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T06:41:51.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
-              "DocumentMoniker": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\App.xaml",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\App.xaml",
               "RelativeDocumentMoniker": "MonitorAssistant\\App.xaml",
-              "ToolTip": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\App.xaml",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\App.xaml",
               "RelativeToolTip": "MonitorAssistant\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-28T06:40:53.759Z",
@@ -215,25 +282,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "MonitorAssistant",
-              "DocumentMoniker": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\MonitorAssistant.csproj",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\MonitorAssistant.csproj",
               "RelativeDocumentMoniker": "MonitorAssistant\\MonitorAssistant.csproj",
-              "ToolTip": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\MonitorAssistant.csproj",
-              "RelativeToolTip": "MonitorAssistant\\MonitorAssistant.csproj",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\MonitorAssistant.csproj*",
+              "RelativeToolTip": "MonitorAssistant\\MonitorAssistant.csproj*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-06-28T06:14:35.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\MainWindow.xaml",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MonitorAssistant\\MainWindow.xaml",
-              "ToolTip": "E:\\012.github\\[WPF]MonitorAssistant\\[WPF]MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\MainWindow.xaml",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\MainWindow.xaml",
               "RelativeToolTip": "MonitorAssistant\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-28T05:59:34.506Z",
+              "WhenOpened": "2025-06-28T05:59:34.506Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "2bc8c29a-75be-4a29-b31e-407ced0772df",
+        "Display": 0,
+        "X": 590,
+        "Y": 114,
+        "Width": 800,
+        "Height": 600,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PageCalculate.xaml",
+              "DocumentMoniker": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageCalculate.xaml",
+              "RelativeDocumentMoniker": "MonitorAssistant\\Pages\\PageCalculate.xaml",
+              "ToolTip": "E:\\02.github\\-WPF-MonitorAssistant\\MonitorAssistant\\MonitorAssistant\\Pages\\PageCalculate.xaml*",
+              "RelativeToolTip": "MonitorAssistant\\Pages\\PageCalculate.xaml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-04T15:32:19.261Z",
               "EditorCaption": ""
             }
           ]

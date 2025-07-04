@@ -18,7 +18,26 @@
             <StackPanel Grid.Column="0">
                 <!--背光PWM计算-->
                 <GroupBox Style="{StaticResource GroupBoxStyle}" Header="Backlight PWM">
-                    
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="最大电流(mA):" VerticalAlignment="Center"/>
+                            <ComboBox x:Name="driveCurrent" Width="60" SelectedIndex="0" Margin="5,0" VerticalAlignment="Center">
+                                <ComboBoxItem>600</ComboBoxItem>
+                                <ComboBoxItem>800</ComboBoxItem>
+                            </ComboBox>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="PWM ARR:" VerticalAlignment="Center"/>
+                            <ComboBox x:Name="pwmARR" Width="83" SelectedIndex="0" Margin="5,0" VerticalAlignment="Center">
+                                <ComboBoxItem>255</ComboBoxItem>
+                                <ComboBoxItem>1023</ComboBoxItem>
+                                <ComboBoxItem>4095</ComboBoxItem>
+                                <ComboBoxItem>65535</ComboBoxItem>
+                            </ComboBox>
+                        </StackPanel>
+                    </StackPanel>
+
+
                 </GroupBox>
                 <!--显示器尺寸计算-->
                 <GroupBox Style="{StaticResource GroupBoxStyle}" Header="Panel Size">
