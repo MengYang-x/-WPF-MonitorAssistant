@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:MonitorAssistant.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="450" d:DesignWidth="860"
       Title="PageCalculate">
 
     <Border  Style="{StaticResource PageBorderStyle}">
@@ -28,20 +28,19 @@
                             <ColumnDefinition Width="Auto"/>
                             <ColumnDefinition Width="Auto"/>
                         </Grid.ColumnDefinitions>
-
                         <!-- 第一行内容（第一列） -->
                         <StackPanel Grid.Row="0" Grid.Column="0">
                             <StackPanel Orientation="Horizontal">
                                 <Label Content="最大电流(mA):" VerticalAlignment="Center"/>
-                                <ComboBox x:Name="driveCurrent" Width="60" SelectedIndex="0" Margin="5,0" 
-                          VerticalAlignment="Center">
+                                <ComboBox x:Name="cbb_maxCurrent" Width="60" SelectedIndex="0" Margin="5,0" 
+                                          VerticalAlignment="Center">
                                     <ComboBoxItem>600</ComboBoxItem>
                                     <ComboBoxItem>800</ComboBoxItem>
                                 </ComboBox>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal">
                                 <Label Content="PWM ARR:" VerticalAlignment="Center"/>
-                                <ComboBox x:Name="pwmARR" Width="83" SelectedIndex="0" Margin="5,0" VerticalAlignment="Center">
+                                <ComboBox x:Name="cbb_pwmARR" Width="83" SelectedIndex="0" Margin="5,0" VerticalAlignment="Center">
                                     <ComboBoxItem>255</ComboBoxItem>
                                     <ComboBoxItem>1023</ComboBoxItem>
                                     <ComboBoxItem>4095</ComboBoxItem>
@@ -50,7 +49,8 @@
                             </StackPanel>
                             <StackPanel Orientation="Horizontal">
                                 <Label Content="目标电流(mA):" VerticalAlignment="Center"/>
-                                <TextBox Text="50" Width="52" Height="28" Margin="3,0"
+                                <TextBox Width="52" Height="27" Margin="3,0"
+                                         x:Name="target_current"
                                          HorizontalContentAlignment="Center"
                                          VerticalContentAlignment="Bottom"/>
                             </StackPanel>
@@ -63,21 +63,31 @@
                             </StackPanel>
                         </StackPanel>
                         <!--第二行内容：显示计算信息-->
-                        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" >
-                            <StackPanel Orientation="Horizontal">
-                                <Label Content="PwmDuty:" Foreground="DodgerBlue"/>
-                                <Label Content="50%" Foreground="DodgerBlue"/>
-                            </StackPanel>
-                            <StackPanel Orientation="Horizontal">
-                                <Label Content="PwmCounterValue:" Foreground="DodgerBlue"/>
-                                <Label Content="652" Foreground="DodgerBlue"/>
-                            </StackPanel>
+                        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+                            <!-- 用 Border 包裹 StackPanel，并设置边框样式 -->
+                            <Border BorderBrush="LightGray" 
+                                    BorderThickness="1" 
+                                    CornerRadius="10" 
+                                    Width="220"
+                                    Margin="0 5">
+                                <StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Content="PwmDuty:" Foreground="DodgerBlue"/>
+                                        <Label Content="{Binding pwmDuty}" Foreground="DodgerBlue"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Content="PwmCounterValue:" Foreground="DodgerBlue"/>
+                                        <Label Content="{Binding pwmCounterValue}" Foreground="DodgerBlue"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
                         </StackPanel>
                     </Grid>
                 </GroupBox>
                 <!--显示器尺寸计算-->
                 <GroupBox Style="{StaticResource GroupBoxStyle}" Header="Panel Size">
-                    <StackPanel> <!--父容器-->
+                    <StackPanel>
+                        <!--父容器-->
                         <StackPanel Orientation="Horizontal" Margin="5">
                             <TextBlock Text="画面比例:" VerticalAlignment="Center"/>
                             <ComboBox Name="combox_panel_ratio" Width="70" SelectedIndex="0" Margin="5,0" VerticalAlignment="Center">
@@ -89,13 +99,17 @@
                                 <ComboBoxItem>32:9</ComboBoxItem>
                             </ComboBox>
                             <TextBlock Name="input_panel_size" Text="尺寸:" VerticalAlignment="Center" Margin="5 0"/>
-                            <TextBox Width="60" Margin="5,0" VerticalAlignment="Center" TextAlignment="Center" TextChanged="TextBox_PanelSize_TextChanged"/>
+                            <TextBox Width="50" Margin="5,0" Height="27"
+                                     VerticalAlignment="Center" TextAlignment="Center"
+                                     VerticalContentAlignment="Bottom"
+                                     x:Name="textbox_panel_size"
+                                     TextChanged="TextBox_PanelSize_TextChanged" PreviewTextInput="TextBoxPanelSize_PreviewTextInput"/>
                         </StackPanel>
-                        <StackPanel>
-                            <TextBlock Name="str_panel_size" Text="Screen H Size(cm):"/>
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Text="Screen H/V Size(cm):" />
+                            <TextBlock Text="{Binding panel_size}" Foreground="DodgerBlue"/>
                         </StackPanel>
                     </StackPanel>
-                    
                 </GroupBox>
             </StackPanel>
             <StackPanel Grid.Column="1" Margin="5 0">
