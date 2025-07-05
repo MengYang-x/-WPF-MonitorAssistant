@@ -18,26 +18,62 @@
             <StackPanel Grid.Column="0">
                 <!--背光PWM计算-->
                 <GroupBox Style="{StaticResource GroupBoxStyle}" Header="Backlight PWM">
-                    <StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <Label Content="最大电流(mA):" VerticalAlignment="Center"/>
-                            <ComboBox x:Name="driveCurrent" Width="60" SelectedIndex="0" Margin="5,0" VerticalAlignment="Center">
-                                <ComboBoxItem>600</ComboBoxItem>
-                                <ComboBoxItem>800</ComboBoxItem>
-                            </ComboBox>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <Label Content="PWM ARR:" VerticalAlignment="Center"/>
-                            <ComboBox x:Name="pwmARR" Width="83" SelectedIndex="0" Margin="5,0" VerticalAlignment="Center">
-                                <ComboBoxItem>255</ComboBoxItem>
-                                <ComboBoxItem>1023</ComboBoxItem>
-                                <ComboBoxItem>4095</ComboBoxItem>
-                                <ComboBoxItem>65535</ComboBoxItem>
-                            </ComboBox>
-                        </StackPanel>
-                    </StackPanel>
+                    <Grid>
+                        <!-- 定义两行两列 -->
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
 
-
+                        <!-- 第一行内容（第一列） -->
+                        <StackPanel Grid.Row="0" Grid.Column="0">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="最大电流(mA):" VerticalAlignment="Center"/>
+                                <ComboBox x:Name="driveCurrent" Width="60" SelectedIndex="0" Margin="5,0" 
+                          VerticalAlignment="Center">
+                                    <ComboBoxItem>600</ComboBoxItem>
+                                    <ComboBoxItem>800</ComboBoxItem>
+                                </ComboBox>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="PWM ARR:" VerticalAlignment="Center"/>
+                                <ComboBox x:Name="pwmARR" Width="83" SelectedIndex="0" Margin="5,0" VerticalAlignment="Center">
+                                    <ComboBoxItem>255</ComboBoxItem>
+                                    <ComboBoxItem>1023</ComboBoxItem>
+                                    <ComboBoxItem>4095</ComboBoxItem>
+                                    <ComboBoxItem>65535</ComboBoxItem>
+                                </ComboBox>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="目标电流(mA):" VerticalAlignment="Center"/>
+                                <TextBox Text="50" Width="52" Height="28" Margin="3,0"
+                                         HorizontalContentAlignment="Center"
+                                         VerticalContentAlignment="Bottom"/>
+                            </StackPanel>
+                        </StackPanel>
+                        <!--第一行第二列内容：放置计算按钮-->
+                        <StackPanel Grid.Row="0" Grid.Column="1">
+                            <StackPanel>
+                                <Button Content="计算" Margin="10,0" Width="60" Height="89"
+                                        Style="{StaticResource ButtonStyle}" Click="btn_pwm_calculate_click"/>
+                            </StackPanel>
+                        </StackPanel>
+                        <!--第二行内容：显示计算信息-->
+                        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" >
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="PwmDuty:" Foreground="DodgerBlue"/>
+                                <Label Content="50%" Foreground="DodgerBlue"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="PwmCounterValue:" Foreground="DodgerBlue"/>
+                                <Label Content="652" Foreground="DodgerBlue"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
                 </GroupBox>
                 <!--显示器尺寸计算-->
                 <GroupBox Style="{StaticResource GroupBoxStyle}" Header="Panel Size">

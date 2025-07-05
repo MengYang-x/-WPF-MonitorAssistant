@@ -42,5 +42,10 @@ namespace MonitorAssistant.Pages
                 str_panel_size.Text = "输入有效";
             }
         }
+
+        private void btn_pwm_calculate_click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
