@@ -11,9 +11,9 @@
     <Border  Style="{StaticResource PageBorderStyle}">
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
             <StackPanel Grid.Column="0">
                 <!--背光PWM计算-->
@@ -106,7 +106,7 @@
                                      TextChanged="TextBox_PanelSize_TextChanged" PreviewTextInput="TextBoxPanelSize_PreviewTextInput"/>
                         </StackPanel>
                         <StackPanel Orientation="Vertical">
-                            <TextBlock Text="Screen H/V Size(cm):" />
+                            <TextBlock Text="Screen H/V Size(cm):" Foreground="DodgerBlue"/>
                             <TextBlock Text="{Binding panel_size}" Foreground="DodgerBlue"/>
                         </StackPanel>
                     </StackPanel>
@@ -115,6 +115,114 @@
             <StackPanel Grid.Column="1" Margin="5 0">
                 <!--色坐标计算-->
                 <GroupBox Style="{StaticResource GroupBoxStyle}" Header="色坐标计算">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="5">
+                            <TextBlock Text="色温(K):"/>
+                            <TextBox x:Name="ttb_colorTemp" Width="70" Margin="10 0" TextAlignment="Center" TextChanged="inputColorTemp_TextChanged"
+                                     ToolTip="有效色温范围1000K~25000K"/>
+                        </StackPanel>
+                        <StackPanel>
+                            <TextBlock Text="CIE1931色坐标(x, y):" Foreground="DodgerBlue"/>
+                            <TextBlock x:Name="text_colorTemp_axis" Foreground="DodgerBlue"/>
+                        </StackPanel>
+                        <StackPanel Margin="3">
+                            <!-- 表格使用Grid布局 -->
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <!-- 表头 -->
+                                <Border Grid.Row="0" Grid.Column="0" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="色调" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="0" Grid.Column="1" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="色温(K)" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="0" Grid.Column="2" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="x坐标" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="0" Grid.Column="3" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="y坐标" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <!-- 第2行 -->
+                                <Border Grid.Row="1" Grid.Column="0" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="Cool2" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="1" Grid.Column="1" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="9300K" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="1" Grid.Column="2" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="0.2831" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="1" Grid.Column="3" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="0.2971" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <!-- 第3行 -->
+                                <Border Grid.Row="2" Grid.Column="0" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="Cool1" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="2" Grid.Column="1" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="8000K" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="2" Grid.Column="2" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="0.2938" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="2" Grid.Column="3" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="0.3092" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <!-- 第4行 -->
+                                <Border Grid.Row="3" Grid.Column="0" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="Normal" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="3" Grid.Column="1" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="6500K" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="3" Grid.Column="2" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="0.3128" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="3" Grid.Column="3" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="0.3292" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <!-- 第5行 -->
+                                <Border Grid.Row="4" Grid.Column="0" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="Warm1" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="4" Grid.Column="1" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="5300K" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="4" Grid.Column="2" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="0.3375" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="4" Grid.Column="3" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="0.3519" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <!-- 第6行 -->
+                                <Border Grid.Row="5" Grid.Column="0" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="Warm2" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="5" Grid.Column="1" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="4300K" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="5" Grid.Column="2" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="0.3697" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                                <Border Grid.Row="5" Grid.Column="3" Style="{StaticResource ColorTempBorderStyle}">
+                                    <TextBlock Text="0.3760" Style="{StaticResource ColorTempTextBlockStyle}"/>
+                                </Border>
+                            </Grid>
+                        </StackPanel>
+                    </StackPanel>
                 </GroupBox>
             </StackPanel>
         </Grid>

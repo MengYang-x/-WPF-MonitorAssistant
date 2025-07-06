@@ -27,7 +27,7 @@ namespace MonitorAssistant.Pages
         public PageCalculate()
         {
             InitializeComponent();
-            this.DataContext = pageDataModel;  // 绑定数据上下文
+            this.DataContext = pageDataModel;  // 绑定数据上下文            
         }
         public class PageDataModel: INotifyPropertyChanged
         {
@@ -147,6 +147,73 @@ namespace MonitorAssistant.Pages
             TextBox textBox = sender as TextBox;
             string newText = textBox.Text + e.Text;
             e.Handled = !double.TryParse(newText, out _);  // 如果不是数字，阻止输入
+        }
+        // 计算色温对应的 CIE 1931 xy 色坐标
+        private void CalculateXYFromTemp(double tempKelvin, out double x, out double y)
+        {
+            if (tempKelvin <= 0)
+            {
+                x = 0;
+                y = 0;
+                return;
+            }
+
+            // 计算 x 坐标
+            if (tempKelvin > 7000)
+            {
+                x = -2.0064 * Math.Pow(10, 9) / Math.Pow(tempKelvin, 3)
+                     + 1.9018 * Math.Pow(10, 6) / Math.Pow(tempKelvin, 2)
+                     + 0.24748 * Math.Pow(10, 3) / tempKelvin
+                     + 0.23704;
+            }
+            else
+            {
+                x = -4.607 * Math.Pow(10, 9) / Math.Pow(tempKelvin, 3)
+                     + 2.9678 * Math.Pow(10, 6) / Math.Pow(tempKelvin, 2)
+                     + 0.09911 * Math.Pow(10, 3) / tempKelvin
+                     + 0.244063;
+            }
+
+            // 计算 y 坐标（基于 x 的二次方程）
+            y = -3.0 * Math.Pow(x, 2) + 2.87 * x - 0.275;
+        }
+        private void inputColorTemp_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            try
+            {
+                text_colorTemp_axis.Foreground = Brushes.DodgerBlue;
+                if (string.IsNullOrWhiteSpace(ttb_colorTemp.Text))
+                {
+                    text_colorTemp_axis.Text = null;
+                    return;
+                }
+
+                // 尝试解析输入的色温值
+                if (double.TryParse(ttb_colorTemp.Text, out double tempKelvin))
+                {
+                    // 检查输入范围
+                    if (tempKelvin < 1000 || tempKelvin > 25000)
+                    {
+                        text_colorTemp_axis.Text = null;
+                        return;
+                    }
+                    // 计算色坐标 (x, y)
+                    CalculateXYFromTemp(tempKelvin, out double x, out double y);
+
+                    // 显示结果（保留4位小数，换行显示）
+                    text_colorTemp_axis.Text = $"({x:F4}, {y:F4})";
+                }
+                else
+                {
+                    text_colorTemp_axis.Text = "输入无效，请输入有效数字！";
+                    text_colorTemp_axis.Foreground = Brushes.Red;
+                }
+            }
+            catch (Exception ex)
+            {
+                text_colorTemp_axis.Text = $"计算错误: {ex.Message}";
+                text_colorTemp_axis.Foreground = Brushes.Red;
+            }
         }
     }
 }

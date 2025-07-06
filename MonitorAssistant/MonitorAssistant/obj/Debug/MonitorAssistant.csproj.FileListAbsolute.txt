@@ -60,7 +60,6 @@ E:\02.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\obj\Debug\M
 E:\02.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\obj\Debug\MonitorAssistant.csproj.CoreCompileInputs.cache
 E:\02.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\obj\Debug\MonitorAssistant.exe
 E:\02.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\obj\Debug\MonitorAssistant.pdb
-E:\02.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\obj\Debug\Styles\ComboBoxStyle.baml
 E:\012.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\bin\Debug\MonitorAssistant.exe.config
 E:\012.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\bin\Debug\MonitorAssistant.exe
 E:\012.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\bin\Debug\MonitorAssistant.pdb
@@ -93,3 +92,5 @@ E:\012.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\obj\Debug\
 E:\012.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\obj\Debug\MonitorAssistant.exe
 E:\012.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\obj\Debug\MonitorAssistant.pdb
 E:\012.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\obj\Debug\Styles\ButtonStyle.baml
+E:\02.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\obj\Debug\Styles\ButtonStyle.baml
+E:\02.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\obj\Debug\Styles\ColorTempGridStyle.baml
