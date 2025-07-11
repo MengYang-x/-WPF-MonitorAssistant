@@ -68,7 +68,7 @@
                             <Border BorderBrush="LightGray" 
                                     BorderThickness="1" 
                                     CornerRadius="10" 
-                                    Width="220"
+                                    Width="260"
                                     Margin="0 5">
                                 <StackPanel>
                                     <StackPanel Orientation="Horizontal">

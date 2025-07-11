@@ -6,9 +6,89 @@
       xmlns:local="clr-namespace:MonitorAssistant.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
+      Background="White"
       Title="PageEDID">
-
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- 标题和刷新按钮 -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Stretch">
+            <TextBlock Text="显示器 EDID 信息" FontSize="18" FontWeight="Bold" Margin="20,10"/>
+            <Button Content="刷新" Width="80" Height="30" Margin="0,0,20,0" 
+                    HorizontalAlignment="Right" Click="RefreshButton_Click"/>
+        </StackPanel>
+
+        <!-- 显示器列表 -->
+        <ListView Grid.Row="1" x:Name="MonitorListView" Margin="20"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Expander Header="{Binding FriendlyName, FallbackValue='未知显示器'}" 
+                              IsExpanded="True" Margin="0,5">
+                        <Grid Margin="10,5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="制造商:" FontWeight="Bold"/>
+                            <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Manufacturer}" Margin="5,0"/>
+
+                            <TextBlock Grid.Row="1" Grid.Column="0" Text="产品代码:" FontWeight="Bold"/>
+                            <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding ProductCode}" Margin="5,0"/>
+
+                            <TextBlock Grid.Row="2" Grid.Column="0" Text="序列号:" FontWeight="Bold"/>
+                            <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding SerialNumber}" Margin="5,0"/>
+
+                            <TextBlock Grid.Row="3" Grid.Column="0" Text="设备名称:" FontWeight="Bold"/>
+                            <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding DeviceName}" Margin="5,0"/>
+
+                            <TextBlock Grid.Row="4" Grid.Column="0" Text="分辨率:" FontWeight="Bold"/>
+                            <TextBlock Grid.Row="4" Grid.Column="1" Text="{Binding Resolution}" Margin="5,0"/>
+
+                            <TextBlock Grid.Row="5" Grid.Column="0" Text="刷新率:" FontWeight="Bold"/>
+                            <TextBlock Grid.Row="5" Grid.Column="1" Text="{Binding RefreshRate}" Margin="5,0">
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Text" Value="{Binding RefreshRate, StringFormat={}{0} Hz}"/>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding RefreshRate}" Value="0">
+                                                <Setter Property="Text" Value="未知"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBlock.Style>
+                            </TextBlock>
+
+                            <TextBlock Grid.Row="6" Grid.Column="0" Text="设备ID:" FontWeight="Bold"/>
+                            <TextBlock Grid.Row="6" Grid.Column="1" Text="{Binding DeviceID}" Margin="5,0" TextWrapping="Wrap"/>
+                        </Grid>
+                    </Expander>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <!-- 状态栏 -->
+        <StatusBar Grid.Row="2">
+            <StatusBarItem>
+                <TextBlock x:Name="StatusText" Text="就绪"/>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right">
+                <TextBlock Text="{Binding Items.Count, ElementName=MonitorListView, StringFormat={}共 {0} 个显示器}"/>
+            </StatusBarItem>
+        </StatusBar>
     </Grid>
 </Page>

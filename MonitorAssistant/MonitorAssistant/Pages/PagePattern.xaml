@@ -8,7 +8,30 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="PagePattern">
 
-    <Grid>
-        
-    </Grid>
+    <Border  Style="{StaticResource PageBorderStyle}">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <StackPanel>
+                    <GroupBox Style="{StaticResource GroupBoxStyle}" Header="Basic Pattern">
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="显示设备"/>
+                                <Button Content="刷新" Width="60" Margin="5 0" Click="BtnRefresh_Click"/>
+                            </StackPanel>
+                            <StackPanel Margin="0 5">
+                                <ComboBox x:Name="cbb_panelID" Width="300"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <TextBlock x:Name="tbDisplayInfo" Margin="0 10" TextWrapping="Wrap"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </GroupBox>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
 </Page>

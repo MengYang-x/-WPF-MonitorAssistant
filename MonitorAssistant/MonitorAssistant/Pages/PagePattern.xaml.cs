@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Management;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -11,7 +12,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace MonitorAssistant.Pages
 {
@@ -23,6 +23,11 @@ namespace MonitorAssistant.Pages
         public PagePattern()
         {
             InitializeComponent();
+
         }
-    }
+        private void BtnRefresh_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }       
+   }
 }

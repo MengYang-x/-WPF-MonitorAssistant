@@ -23,13 +23,13 @@
                              Content="Calculate" Click="RadioButton_Caluculate_Click"/>
                 <RadioButton Style="{StaticResource MenuRadioButtonStyle}" 
                              GroupName="NavMenu" 
-                             Content="Pattern"/>
+                             Content="Pattern" Click="RadioButton_Pattern_Click"/>
                 <RadioButton Style="{StaticResource MenuRadioButtonStyle}" 
                              GroupName="NavMenu" 
                              Content="Audio"/>
                 <RadioButton Style="{StaticResource MenuRadioButtonStyle}" 
                              GroupName="NavMenu" 
-                             Content="EDID" />
+                             Content="EDID" Click="RadioButton_Click" />
                 <RadioButton Style="{StaticResource MenuRadioButtonStyle}" 
                              GroupName="NavMenu" 
                              Content="SerialPort" />

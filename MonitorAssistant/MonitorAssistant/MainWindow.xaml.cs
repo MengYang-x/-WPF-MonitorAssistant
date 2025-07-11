@@ -38,5 +38,15 @@ namespace MonitorAssistant
         {
             PageContent.Navigate(new PageAbout());
         }
+
+        private void RadioButton_Pattern_Click(object sender, RoutedEventArgs e)
+        {
+            PageContent.Navigate(new PagePattern());
+        }
+
+        private void RadioButton_Click(object sender, RoutedEventArgs e)
+        {
+            PageContent.Navigate(new PageEDID());
+        }
     }
 }

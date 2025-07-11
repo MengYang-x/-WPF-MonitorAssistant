@@ -124,7 +124,10 @@ namespace MonitorAssistant.Pages
                     else
                     {
                         pageDataModel.pwmDuty = $"{Math.Round((targetCurrent / maxCurrent) * 100)} %";
-                        pageDataModel.pwmCounterValue = $"{Math.Round(targetCurrent / maxCurrent * pwmARR)}";
+                        double pwmCounterValue = Math.Round(targetCurrent / maxCurrent * pwmARR);
+                        int intValue = (int)pwmCounterValue;
+                        string hexValue = "0x" + intValue.ToString("X");
+                        pageDataModel.pwmCounterValue = $"{pwmCounterValue}({hexValue})";
                     }
                 }
                 catch (FormatException)
