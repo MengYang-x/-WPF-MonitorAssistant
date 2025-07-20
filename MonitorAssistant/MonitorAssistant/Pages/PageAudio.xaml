@@ -8,7 +8,10 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="PageAudio">
 
-    <Grid>
-        
-    </Grid>
+    <Border  Style="{StaticResource PageBorderStyle}">
+        <Grid>
+
+            <TextBlock Text="Audio" Foreground="Black" FontSize="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Grid>
+    </Border>
 </Page>

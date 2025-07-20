@@ -48,5 +48,10 @@ namespace MonitorAssistant
         {
             PageContent.Navigate(new PageEDID());
         }
+
+        private void RadioButton_Audio_Click(object sender, RoutedEventArgs e)
+        {
+            PageContent.Navigate(new PageAudio());
+        }
     }
 }

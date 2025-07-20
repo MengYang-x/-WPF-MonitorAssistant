@@ -26,7 +26,7 @@
                              Content="Pattern" Click="RadioButton_Pattern_Click"/>
                 <RadioButton Style="{StaticResource MenuRadioButtonStyle}" 
                              GroupName="NavMenu" 
-                             Content="Audio"/>
+                             Content="Audio" Click="RadioButton_Audio_Click"/>
                 <RadioButton Style="{StaticResource MenuRadioButtonStyle}" 
                              GroupName="NavMenu" 
                              Content="EDID" Click="RadioButton_Click" />
