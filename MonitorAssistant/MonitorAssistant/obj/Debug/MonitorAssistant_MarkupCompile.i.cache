@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\02.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\obj\Debug\
+E:\012.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\obj\Debug\
 MonitorAssistant
 none
 false
 DEBUG;TRACE
-E:\02.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\App.xaml
+E:\012.github\-WPF-MonitorAssistant\MonitorAssistant\MonitorAssistant\App.xaml
 12-222588256
-1608129762
+121053917162
 13-516366007
-261129665372
+261390266661
 MainWindow.xaml;Pages\PageAbout.xaml;Pages\PageAudio.xaml;Pages\PageCalculate.xaml;Pages\PageEDID.xaml;Pages\PagePattern.xaml;Pages\PageSerialPort.xaml;Styles\ButtonStyle.xaml;Styles\ColorTempGridStyle.xaml;Styles\GroupBoxStyle.xaml;Styles\MenuRadioButtonStyle.xaml;Styles\PageStyle.xaml;
 
 False

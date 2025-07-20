@@ -8,6 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("generaledid/1920_1080_144hz/vga.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("generaledid/1920_1080_144hz/hdmi.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("generaledid/1920_1080_144hz/dp.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("generaledid/1024_768_75hz/hdmi.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("generaledid/1024_768_75hz/vga.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("generaledid/1280_1024_75hz/hdmi.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("generaledid/1280_1024_75hz/vga.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("generaledid/1600_900_75hz/hdmi.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("generaledid/1600_900_75hz/vga.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("generaledid/1920_1080_75hz/vga.txt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("generaledid/1920_1080_100hz/dp.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("generaledid/1920_1080_75hz/hdmi.txt")]
 
 

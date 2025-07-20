@@ -18,6 +18,9 @@
                                 <ComboBoxItem>1920*1080@144Hz</ComboBoxItem>
                                 <ComboBoxItem>1920*1080@100Hz</ComboBoxItem>
                                 <ComboBoxItem>1920*1080@75Hz</ComboBoxItem>
+                                <ComboBoxItem>1600*900@75Hz</ComboBoxItem>
+                                <ComboBoxItem>1280*1024@75Hz</ComboBoxItem>
+                                <ComboBoxItem>1024*768@75Hz</ComboBoxItem>
                             </ComboBox>
                             <TextBlock Text="通道：" VerticalAlignment="Center" Margin="20 0 0 0"/>
                             <ComboBox x:Name="cbb_DisplayChannel" Width="80" Margin="0 0" VerticalAlignment="Center">

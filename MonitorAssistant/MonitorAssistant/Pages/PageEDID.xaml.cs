@@ -51,6 +51,8 @@ namespace MonitorAssistant.Pages
             catch (Exception ex)
             {
                 MessageBox.Show($"加载EDID失败: {ex.Message}", "错误", MessageBoxButton.OK, MessageBoxImage.Error);
+                richTextBox_edid_data.Document.Blocks.Clear();
+                return;
             }
         }
     }

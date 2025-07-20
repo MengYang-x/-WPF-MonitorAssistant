@@ -202,16 +202,42 @@
     <Resource Include="c.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="GeneralEDID\1920_1080_144Hz\VGA.txt" />
+    <Content Include="GeneralEDID\1920_1080_144Hz\VGA.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="GeneralEDID\1920_1080_144Hz\HDMI.txt" />
+    <Content Include="GeneralEDID\1920_1080_144Hz\HDMI.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="GeneralEDID\1920_1080_144Hz\DP.txt" />
+    <Content Include="GeneralEDID\1920_1080_144Hz\DP.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="GeneralEDID\1920_1080_75Hz\VGA.txt" />
+    <Content Include="GeneralEDID\1024_768_75Hz\HDMI.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GeneralEDID\1024_768_75Hz\VGA.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GeneralEDID\1280_1024_75Hz\HDMI.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GeneralEDID\1280_1024_75Hz\VGA.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GeneralEDID\1600_900_75Hz\HDMI.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GeneralEDID\1600_900_75Hz\VGA.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GeneralEDID\1920_1080_75Hz\VGA.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="GeneralEDID\1920_1080_100Hz\VGA.txt" />
@@ -225,7 +251,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="GeneralEDID\1920_1080_75Hz\HDMI.txt" />
+    <Content Include="GeneralEDID\1920_1080_75Hz\HDMI.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

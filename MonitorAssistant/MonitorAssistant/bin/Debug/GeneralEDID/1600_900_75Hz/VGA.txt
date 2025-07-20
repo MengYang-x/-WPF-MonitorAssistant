@@ -1,0 +1,81 @@
+﻿
+    0x00,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0x00, 0x63,0x18,0x00,0x20,0x00,0x00,0x00,0x00,
+    0x1D,0x23,0x01,0x03,0x08,0x2C,0x19,0x78, 0x2A,0xC9,0x05,0xA3,0x57,0x4B,0x9C,0x25,
+    0x12,0x50,0x54,0xAD,0xCE,0x00,0x81,0xCA, 0x81,0x00,0x95,0x00,0xA9,0xCF,0x01,0x01,
+    0x01,0x01,0x01,0x01,0x01,0x01,0x42,0x26, 0x40,0xA0,0x60,0x84,0x1A,0x30,0x50,0x20,
+    0x25,0x04,0xBB,0xF9,0x10,0x00,0x00,0x1C, 0x00,0x00,0x00,0xFF,0x00,0x46,0x46,0x46,
+    0x46,0x46,0x46,0x46,0x46,0x46,0x46,0x46, 0x46,0x46,0x00,0x00,0x00,0xFD,0x00,0x38,
+    0x4B,0x1F,0x51,0x10,0x00,0x0A,0x20,0x20, 0x20,0x20,0x20,0x20,0x00,0x00,0x00,0xFC,
+    0x00,0x56,0x47,0x41,0x0A,0x20,0x20,0x20, 0x20,0x20,0x20,0x20,0x20,0x20,0x00,0x08,
+
+
+/* Edid Report <CVTE Monitor Edid Editor v1.5>
+============ EDID Conformity: PASS ============
+
+----------------
+
+# Block 0, Base EDID:
+  ## EDID Structure Version & Revision: 1.3
+  ## Vendor & Product Identification:
+    Manufacturer: XXX
+    Model: 8192
+    Made in: week 29 of 2025
+  ## Basic Display Parameters & Features:
+    Analog display
+    Signal Level Standard: 0.700 : 0.300 : 1.000 V p-p
+    Blank level equals black level
+    Sync: Separate
+    Maximum image size: 44 cm x 25 cm
+    Gamma: 2.20
+    DPMS levels: Off
+    RGB color display
+    First detailed timing is the preferred timing
+  ## Color Characteristics:
+    Red  : 0.6396, 0.3398
+    Green: 0.2949, 0.6103
+    Blue : 0.1445, 0.0703
+    White: 0.3134, 0.3291
+  ## Established Timings I & II:
+    IBM     :   720x400    70.081663 Hz   9:5     31.467 kHz     28.320000 MHz
+    DMT 0x04:   640x480    59.940476 Hz   4:3     31.469 kHz     25.175000 MHz
+    DMT 0x05:   640x480    72.808802 Hz   4:3     37.861 kHz     31.500000 MHz
+    DMT 0x06:   640x480    75.000000 Hz   4:3     37.500 kHz     31.500000 MHz
+    DMT 0x09:   800x600    60.316541 Hz   4:3     37.879 kHz     40.000000 MHz
+    DMT 0x0a:   800x600    72.187572 Hz   4:3     48.077 kHz     50.000000 MHz
+    DMT 0x0b:   800x600    75.000000 Hz   4:3     46.875 kHz     49.500000 MHz
+    DMT 0x10:  1024x768    60.003840 Hz   4:3     48.363 kHz     65.000000 MHz
+    DMT 0x11:  1024x768    70.069359 Hz   4:3     56.476 kHz     75.000000 MHz
+    DMT 0x12:  1024x768    75.028582 Hz   4:3     60.023 kHz     78.750000 MHz
+  ## Standard Timings:
+    GTF     :  1280x720    70.000000 Hz  16:9     52.500 kHz     89.040000 MHz
+    DMT 0x1c:  1280x800    59.810326 Hz  16:10    49.702 kHz     83.500000 MHz
+    DMT 0x2f:  1440x900    59.887445 Hz  16:10    55.935 kHz    106.500000 MHz
+    GTF     :  1600x900    75.000000 Hz  16:9     70.500 kHz    152.280000 MHz
+  ## Detailed Timing Descriptors:
+    DTD 1:  1600x900    60.094738 Hz  16:9     55.648 kHz     97.940000 MHz (443 mm x 249 mm)
+                 Hfront   80 Hsync  32 Hback   48 Hpol N
+                 Vfront   18 Vsync   5 Vback    3 Vpol P
+    ## Display Product Serial Number: 'FFFFFFFFFFFFF'
+    ## Display Range Limits:
+      Monitor ranges (GTF): 56-75 Hz V, 31-81 kHz H, max dotclock 160 MHz
+    ## Display Product Name: 'VGA'
+Checksum: 0x08
+
+# Preferred Timings Report:
+
+  ## Preferred Video Timing if only Block 0 is parsed:
+  DTD   1:  1600x900    60.094738 Hz  16:9     55.648 kHz     97.940000 MHz (443 mm x 249 mm)
+                 Hfront   80 Hsync  32 Hback   48 Hpol N
+                 Vfront   18 Vsync   5 Vback    3 Vpol P
+
+# Native Resolution Report:
+
+  ## Native Video Resolution:
+  1600x900
+
+# Base Block Check:
+
+edid-decode SHA: SHA DATE
+
+
+*/
